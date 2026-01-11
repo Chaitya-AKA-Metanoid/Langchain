@@ -1,0 +1,9 @@
+{
+    "_type": "prompt",
+    "input_variables": [
+        "post_content",
+        "persona",
+        "goal"
+    ],
+    "template": "You are a LinkedIn content strategist. I want you to write a high-quality comment for the following post:\n\nPOST CONTENT: {post_content}\n\nPERSONA: Act as a {persona}.\nGOAL: The main objective of this comment is to {goal}.\n\nEnsure the response is engaging, professional, and follows LinkedIn etiquette. Avoid generic phrases like 'Great post!' or 'Thanks for sharing!'"
+}
