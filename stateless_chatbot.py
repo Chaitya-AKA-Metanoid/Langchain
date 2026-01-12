@@ -9,7 +9,7 @@ load_dotenv()
 
 # 2. Initialize the Model (Gemini 2.5 Flash)
 model = ChatGoogleGenerativeAI(
-    model="gemini-2.5-flash",
+    model="gemini-2.5-flash", 
     temperature=0.7
 )
 
@@ -41,4 +41,5 @@ while True:
         response = chain.invoke({"user_input": user_query})
         print(f"Bot: {response}\n")
     except Exception as e:
+
         print(f"Error: {e}")
